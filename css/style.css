@@ -100,8 +100,8 @@ body {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent);
-  border: 1px solid rgba(28,200,160,0.35);
+  color: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
   background: rgba(28,200,160,0.06);
   padding: 0.35rem 1rem;
   border-radius: var(--radius-full);
@@ -416,9 +416,9 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--accent-light);
+  color: var(--accent-dark);
   background: rgba(28,200,160,0.1);
-  border: 1px solid rgba(28,200,160,0.25);
+  border: 1px solid var(--accent-dark);
   padding: 0.45rem 1rem;
   border-radius: var(--radius-full);
   margin-bottom: 1.5rem;
